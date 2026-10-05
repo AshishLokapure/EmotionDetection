@@ -47,13 +47,20 @@ The application is developed using **Python** and deployed as a web application 
 
 ```text
 EmotionDetection/
-│
-├── EmotionDetection/
+├── service/
 │   ├── __init__.py
-│   └── emotion_detection.py
-│
-├── test_emotion_detection.py
-├── server.py
+│   ├── models.py
+│   └── routes.py
+├── tests/
+│   ├── __init__.py
+│   ├── factories.py
+│   ├── test_models.py
+│   └── test_routes.py
+├── features/
+│   ├── products.feature
+│   └── steps/
+│       ├── load_steps.py
+│       └── web_steps.py
 ├── requirements.txt
 └── README.md
 ```
